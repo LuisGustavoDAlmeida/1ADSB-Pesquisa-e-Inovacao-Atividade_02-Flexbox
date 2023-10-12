@@ -1,0 +1,77 @@
+div {
+    background-color: rgb(212, 212, 212);
+    font-size: 40px;
+    border-radius: 8px;
+}
+.base {
+    margin-bottom: 10px;
+}
+.container {
+    display: flex;
+}
+
+.container2 {
+    display: flex;
+    justify-content: end;
+}
+
+.container3 {
+    display: flex;
+    justify-content: center;
+}
+
+.container4 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container5 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container6 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.caixa1 {
+    width: 100px;
+    height: 100px;
+    background-color: cornflowerblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.caixa2 {
+    width: 100px;
+    height: 100px;
+    background-color: midnightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.caixa3 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(253, 12, 64);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.caixa4 {
+    width: 100px;
+    height: 100px;
+    background-color: goldenrod;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-exercicioB{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.container-desafio {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
